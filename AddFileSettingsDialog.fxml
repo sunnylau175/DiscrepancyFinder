@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="679.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="discrepencyfinder.AddFileSettingsDialogController">
+   <children>
+      <VBox spacing="30.0">
+         <children>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Setting Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addSettingName" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  
+                  <Label text="Row Label" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addRowLabel" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Column Label" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addColumnLabel" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Start Row" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addStartRow" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                   <Label text="Start Column" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addStartColumn" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+                  
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="End Row" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addEndRow" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="End Column" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addEndColumn" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  
+                  <Label text="Row Label Down Padding" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addRowLabelDownPadding" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+                  
+               </children>
+            </GridPane>
+            <GridPane>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Row Label Up Padding" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addRowLabelUpPadding" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Down Padding" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addDownPadding" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+            <GridPane hgap="18.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Up Padding" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <TextField fx:id="addUpPadding" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+               </children>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets bottom="30.0" left="30.0" top="30.0" />
+         </padding>
+      </VBox>
+      <HBox alignment="CENTER" layoutY="628.0" minWidth="-Infinity" prefHeight="23.0" prefWidth="500.0" spacing="15.0">
+         <children>
+            <Button fx:id="addOK" mnemonicParsing="false" onAction="#handleAddAction" prefWidth="60.0" text="OK" />
+            <Button fx:id="addCancel" mnemonicParsing="false" onAction="#handleCanelAction" prefWidth="60.0" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

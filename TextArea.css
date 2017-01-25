@@ -1,0 +1,42 @@
+
+.text-area {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 12;
+    -fx-font-family: "Courier New";
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+    -fx-font-size: 12;
+    -fx-font-family: "Courier New";
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent;
+    -fx-font-size: 12;
+    -fx-font-family: "Courier New";
+}
+
+.text-area:focused {
+    -fx-highlight-fill: transparent;
+    -fx-font-size: 12;
+    -fx-font-family: "Courier New";
+}
+
+.text-area .content {
+    -fx-padding: 10px;
+    -fx-highlight-fill: transparent;
+    -fx-font-size: 12;
+    -fx-font-family: "Courier New";
+}
+
+.text-input {
+    -fx-highlight-fill: #3399ff;
+    -fx-highlight-text-fill: white;
+}
+
+.text-input:focused {
+    -fx-highlight-fill: #3399ff;
+    -fx-highlight-text-fill: white;
+}

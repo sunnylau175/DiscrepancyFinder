@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="258.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="discrepencyfinder.MappingsController">
+   <children>
+      <ListView fx:id="lstMappings" layoutX="20.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnAddModifyMappings" layoutX="233.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleAddModifyMappingsAction" prefHeight="23.0" prefWidth="85.0" text="Add/Modify" />
+      <Button fx:id="btnDeleteMappings" layoutX="233.0" layoutY="64.0" mnemonicParsing="false" onAction="#handleDeleteMappingAction" prefWidth="85.0" text="Delete" />
+   </children>
+</AnchorPane>
