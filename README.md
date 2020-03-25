@@ -6,9 +6,9 @@ Background: our company mainly uses excel files to record attendance records and
 
 Technologies used:
 
-JavaFX: FXML, multi-threading
-Library: Apache POI, HyperSQL (HSQLDB)
-Algorithm: Quick Sort, Binary Search
+JavaFX FXML, multi-threading
+Library - Apache POI, HyperSQL (HSQLDB)
+Algorithm - Quick Sort, Binary Search
 
 How it works:
 The program creates common data model to store data which are read from excel files since different excel file has different format and sign.
